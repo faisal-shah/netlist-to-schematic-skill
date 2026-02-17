@@ -16,36 +16,17 @@ publication-quality **circuit schematic diagrams** using Circuitikz (LaTeX).
 
 ## Installation
 
-### GitHub Copilot / VS Code
-
 ```bash
 git clone https://github.com/faisal-shah/netlist-to-schematic-skill.git
+cd netlist-to-schematic-skill
 
-# Option 1: project-level
-mkdir -p .github/skills/netlist-to-schematic/scripts
-cp netlist-to-schematic-skill/SKILL.md .github/skills/netlist-to-schematic/
-cp netlist-to-schematic-skill/scripts/*.py .github/skills/netlist-to-schematic/scripts/
+# Install — provide the path to your agent's skills directory
+./install.sh ~/.copilot/skills      # GitHub Copilot CLI (user-level)
+./install.sh .github/skills         # GitHub Copilot (project-level)
+./install.sh ~/.codex/skills        # OpenAI Codex
 
-# Option 2: user-level (all projects)
-mkdir -p ~/.copilot/skills/netlist-to-schematic/scripts
-cp netlist-to-schematic-skill/SKILL.md ~/.copilot/skills/netlist-to-schematic/
-cp netlist-to-schematic-skill/scripts/*.py ~/.copilot/skills/netlist-to-schematic/scripts/
-```
-
-### Claude Code
-
-```bash
-mkdir -p ~/.claude/skills/netlist-to-schematic/scripts
-cp netlist-to-schematic-skill/SKILL.md ~/.claude/skills/netlist-to-schematic/
-cp netlist-to-schematic-skill/scripts/*.py ~/.claude/skills/netlist-to-schematic/scripts/
-```
-
-### OpenAI Codex
-
-```bash
-mkdir -p ~/.codex/skills/netlist-to-schematic/scripts
-cp netlist-to-schematic-skill/SKILL.md ~/.codex/skills/netlist-to-schematic/
-cp netlist-to-schematic-skill/scripts/*.py ~/.codex/skills/netlist-to-schematic/scripts/
+# Uninstall
+./install.sh --uninstall ~/.copilot/skills
 ```
 
 ## Prerequisites

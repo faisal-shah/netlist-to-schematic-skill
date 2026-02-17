@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/dev/repos/faisal-shah/netlist-to-schematic-skill/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+10. Common Pitfalls	SKILL.md	/^## 10. Common Pitfalls$/;"	s
+AGENTS.md — AI Context for netlist-to-schematic-skill	AGENTS.md	/^# AGENTS.md — AI Context for netlist-to-schematic-skill$/;"	c
+Claude Code	README.md	/^### Claude Code$/;"	S	section:netlist-to-schematic-skill""Installation
+Compatible Agents	README.md	/^## Compatible Agents$/;"	s	chapter:netlist-to-schematic-skill
+Design Principles	AGENTS.md	/^## Design Principles$/;"	s	chapter:AGENTS.md — AI Context for netlist-to-schematic-skill
+GitHub Copilot / VS Code	README.md	/^### GitHub Copilot \/ VS Code$/;"	S	section:netlist-to-schematic-skill""Installation
+Installation	README.md	/^## Installation$/;"	s	chapter:netlist-to-schematic-skill
+Key Files	AGENTS.md	/^## Key Files$/;"	s	chapter:AGENTS.md — AI Context for netlist-to-schematic-skill
+License	README.md	/^## License$/;"	s	chapter:netlist-to-schematic-skill
+OpenAI Codex	README.md	/^### OpenAI Codex$/;"	S	section:netlist-to-schematic-skill""Installation
+Prerequisites	README.md	/^## Prerequisites$/;"	s	chapter:netlist-to-schematic-skill
+Quick Start	README.md	/^## Quick Start$/;"	s	chapter:netlist-to-schematic-skill
+Related Skills	README.md	/^## Related Skills$/;"	s	chapter:netlist-to-schematic-skill
+Style	AGENTS.md	/^## Style$/;"	s	chapter:AGENTS.md — AI Context for netlist-to-schematic-skill
+Testing Changes	AGENTS.md	/^## Testing Changes$/;"	s	chapter:AGENTS.md — AI Context for netlist-to-schematic-skill
+What This Repo Is	AGENTS.md	/^## What This Repo Is$/;"	s	chapter:AGENTS.md — AI Context for netlist-to-schematic-skill
+What the Skill Covers	README.md	/^## What the Skill Covers$/;"	s	chapter:netlist-to-schematic-skill
+What's Included	README.md	/^## What's Included$/;"	s	chapter:netlist-to-schematic-skill
+compile_tex	scripts/compile_tex.py	/^def compile_tex(tex_path: str | Path, png_path: str | Path | None = None, dpi: int = 300) -> Pat/;"	f	typeref:typename:Path
+main	scripts/compile_tex.py	/^def main() -> None:$/;"	f	typeref:typename:None
+netlist-to-schematic-skill	README.md	/^# netlist-to-schematic-skill$/;"	c
