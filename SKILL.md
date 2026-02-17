@@ -1,10 +1,9 @@
 ---
 name: netlist-to-schematic
 description: >
-  Convert SPICE netlists into publication-quality circuit schematic diagrams
-  using Circuitikz (LaTeX). Covers netlist parsing, layout planning,
-  component mapping, transformer/switch drawing patterns, label placement,
-  and the compile-view-iterate workflow.
+  Draw, create, or visualize a circuit schematic diagram from a SPICE netlist
+  (.cir/.spice file). Use when asked to produce a circuit diagram, schematic,
+  or visual representation of an electrical circuit.
 ---
 
 # Netlist-to-Schematic Skill
